@@ -1,3 +1,27 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = 'https://howard88654.github.io/'
+locale = 'zh_cn'
+title = 'Howard88654'
+theme = 'PaperMod'
+
+# 导航栏：官网首页 / 游戏作品 / 技术博客 / 下载
+[menu]
+[[menu.main]]
+name = "首页"
+url = "/"
+weight = 1
+[[menu.main]]
+name = "游戏作品"
+url = "/games/"
+weight = 2
+[[menu.main]]
+name = "技术博客"
+url = "/blog/"
+weight = 3
+[[menu.main]]
+name = "下载"
+url = "/download/"
+weight = 4
+
+# 博客文章存放目录
+[params]
+mainSections = ["blog"]
